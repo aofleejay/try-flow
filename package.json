@@ -1,0 +1,28 @@
+{
+  "name": "try-flow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "dependencies": {
+    "babel-preset-flow": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "flow-bin": "^0.64.0",
+    "nodemon": "^1.14.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "babel src/ -d lib/",
+    "flow": "./node_modules/.bin/flow status"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aofleejay/try-flow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aofleejay/try-flow/issues"
+  },
+  "homepage": "https://github.com/aofleejay/try-flow#readme"
+}
